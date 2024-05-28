@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Homepage</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative; /* To make sure absolute positioning works correctly */
+    background-image: url(bg2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  nav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+  }
+  nav a {
+    display: inline-block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: border-bottom 0.3s;
+  }
+  nav a:hover {
+    border-bottom: 2px solid white;
+  }
+  
+
+  .main-image {
+    flex: 1;
+    max-width: 50%; /* Adjust this as needed */
+  }
+  .sidebar {
+    flex: 1;
+    padding: 20px;
+    text-align: center; /* Aligns text in the center */
+    font-style: italic;
+    color: white;
+  }
+  .paragraph {
+    margin-top: 20px;
+    font-style: italic;
+    color: white;
+  }
+  .container1, .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Aligns items horizontally at the center */
+  }
+  .image-section {
+    text-align: center;
+    color: white;
+    flex: 1;
+    margin: 20px;
+  }
+  .image-section img {
+    width: 100%;
+    height: 300px;
+  }
+  .image-section button{
+    margin-top: 10px;
+  }
+  .button {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: background-color 0.3s ease;
+    font-style: italic;
+  }
+  .button:hover {
+    background-color: #45a049;
+  }
+  .image-section p{
+    margin: 0;
+    font-size: 20px;
+  }
+  .image-section p1{
+    font-size: 15px;
+    color: red;
+  }
+  button{
+    padding: 5px 20px 5px 20px;
+    border-radius: 25px;
+    color: black;
+    font-size: 20px;
+  }
+  button a{
+    text-decoration: none;
+  }
+  button:hover{
+    background-color: #007bff;
+    color: white;
+  }
+
+</style>
+</head>
+<body>
+    <nav>
+        <a href="About.html">About</a>
+        <a href="srvices.html">Services</a>
+        <a href="LOGIN.html">Login</a>
+        <a href="Contact.html">contact</a>
+      </nav>
+<div class="container">
+  <div class="sidebar">
+    <h2>Eclipse Automotive</h2>
+    <p class="paragraph">Do you have a fast car that will allow us to fly? We need to decide whether to leave tonight or continue living in this manner.</p>
+    <p>Creating memories, one drive at a time. </p>
+  </div>
+</div>
+<div class="container1">
+  <div class="image-section">
+    <img src="1.jpg"alt="Image 1">
+    <p>Ferrari</p>
+    <p1>$ 999</p1><br>
+    <button><a href="LOGIN.html">Buy</a></button>
+  </div>
+  <div class="image-section">
+    <img src="2.jpg" alt="Image 2">
+    <p>Ferrari Formula 1</p>
+    <p1>$ 1099</p1><br>
+    <button><a href="LOGIN.html">Buy</a></button>
+  </div>
+  <div class="image-section">
+    <img src="j.jfif" alt="Image 3">
+    <p>Porsche</p>
+    <p1>$ 2999</p1><br>
+    <button><a href="LOGIN.html">Buy</a></button>
+    </div>
+</div>
+<div class="container2">
+    <div class="image-section">
+      <img src="4.webp"alt="Image 1">
+      <p>Gordan Murray T.33</p>
+      <p1>$ 3999</p1><br>
+      <button><a href="LOGIN.html">Buy</a></button>    </div>
+    <div class="image-section">
+      <img src="5.jpg" alt="Image 2">
+      <p>Nissan GT-R</p>
+      <p1>$ 5999</p1><br>
+      <button><a href="LOGIN.html">Buy</a></button>    </div>
+    <div class="image-section">
+      <img src="6.avif" alt="Image 3">
+      <p>Lamborghini Revuelto</p>
+      <p1>$ 9999</p1><br>
+      <button><a href="LOGIN.html">Buy</a></button>    </div>
+  </div>
+
+<br><br><br><br><a href="LOGIN.html" class="button">&nbsp;&nbsp;Login&nbsp;&nbsp;</a>
+
+</body>
+</html>
